@@ -96,7 +96,7 @@ class extract_img_open(object):
         
     def build_video_with_imgs(self):
         
-        video=cv2.VideoWriter('video/video_with_bar.avi',
+        video=cv2.VideoWriter('video/video_with_bar.mp4',
                               fourcc=cv.CV_FOURCC('M','P', '4', '2'),
                               30,
                               (1280,720))
